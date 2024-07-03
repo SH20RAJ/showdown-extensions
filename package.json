@@ -1,0 +1,25 @@
+{
+  "name": "showdown-extentions",
+  "version": "1.0.0",
+  "description": "A collection of useful ShowdownJS extensions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SH20RAJ/showdown-extensions.git"
+  },
+  "keywords": [
+    "showdownjs",
+    "markdown",
+    "extentions",
+    "html"
+  ],
+  "author": "SH20RAJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SH20RAJ/showdown-extensions/issues"
+  },
+  "homepage": "https://github.com/SH20RAJ/showdown-extensions#readme"
+}

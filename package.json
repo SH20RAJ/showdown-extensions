@@ -26,6 +26,7 @@
   "dependencies": {
     "showdown-emoji": "^3.0.0",
     "showdown-highlight": "^3.1.0",
-    "showdown-target-blank": "^1.0.2"
+    "showdown-target-blank": "^1.0.2",
+    "showdown-toc": "^1.1.0"
   }
 }

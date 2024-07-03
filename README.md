@@ -41,6 +41,28 @@ npm install showdown-extensions
 - **Medium**: Embed Medium stories
 - **Notion**: Embed Notion pages
 
+## Showdown Extensions
+
+- **showdown-toc**: Generate a table of contents for your markdown.
+- **showdown-highlight**: Highlight code blocks in your markdown.
+- **showdown-emoji**: Render emojis in your markdown.
+- **showdown-footnotes**: Add footnotes to your markdown.
+- **showdown-mark**: Highlight text in your markdown.
+- **showdown-task-list**: Add task lists to your markdown.
+- **showdown-mermaid**: Render diagrams and flowcharts in your markdown.
+- **showdown-katex**: Render math equations in your markdown.
+- **showdown-plantuml**: Render PlantUML diagrams in your markdown.
+- **showdown-uml**: Render UML diagrams in your markdown.
+- **showdown-video**: Embed videos in your markdown.
+- **showdown-audio**: Embed audio files in your markdown.
+- **showdown-iframe**: Embed iframes in your markdown.
+- **showdown-accordion**: Add accordions to your markdown.
+- **showdown-tabs**: Add tabs to your markdown.
+- **showdown-details**: Add details to your markdown.
+
+
+
+## Available Extensions
 
 ### YouTube Extension
 
@@ -86,7 +108,7 @@ const converter = new showdown.Converter();
 converter.addExtension(twitterExtension, "twitter");
 
 const markdownString =
-  "{% twitter https://twitter.com/username/status/1234567890123456789 %}";
+    "{% twitter https://twitter.com/username/status/1234567890123456789 %}";
 const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
@@ -103,7 +125,7 @@ const converter = new showdown.Converter();
 converter.addExtension(gistExtension, "gist");
 
 const markdownString =
-  "{% gist https://gist.github.com/username/1234567890123456789 %}";
+    "{% gist https://gist.github.com/username/1234567890123456789 %}";
 const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
@@ -120,7 +142,7 @@ const converter = new showdown.Converter();
 converter.addExtension(instagramExtension, "instagram");
 
 const markdownString =
-  "{% instagram https://www.instagram.com/p/1234567890123456789 %}";
+    "{% instagram https://www.instagram.com/p/1234567890123456789 %}";
 const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
@@ -141,7 +163,7 @@ const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## SoundCloud Extension
+### SoundCloud Extension
 
 Embed SoundCloud tracks in your markdown.
 
@@ -155,7 +177,7 @@ const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## Spotify Extension
+### Spotify Extension
 
 Embed Spotify tracks in your markdown.
 
@@ -169,7 +191,7 @@ const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## Figma Extension
+### Figma Extension
 
 Embed Figma designs in your markdown.
 
@@ -183,7 +205,7 @@ const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## Slides Extension
+### Slides Extension
 
 Embed Google Slides presentations in your markdown.
 
@@ -193,12 +215,12 @@ import { slidesExtension } from "showdown-extensions/slides";
 const converter = new showdown.Converter();
 converter.addExtension(slidesExtension, "slides");
 const markdownString =
-  "{% slides https://docs.google.com/presentation/d/presentationid %}";
+    "{% slides https://docs.google.com/presentation/d/presentationid %}";
 const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## Docs Extension
+### Docs Extension
 
 Embed Google Docs in your markdown.
 
@@ -208,12 +230,12 @@ import { docsExtension } from "showdown-extensions/docs";
 const converter = new showdown.Converter();
 converter.addExtension(docsExtension, "docs");
 const markdownString =
-  "{% docs https://docs.google.com/document/d/documentid %}";
+    "{% docs https://docs.google.com/document/d/documentid %}";
 const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## Sheets Extension
+### Sheets Extension
 
 Embed Google Sheets in your markdown.
 
@@ -223,12 +245,12 @@ import { sheetsExtension } from "showdown-extensions/sheets";
 const converter = new showdown.Converter();
 converter.addExtension(sheetsExtension, "sheets");
 const markdownString =
-  "{% sheets https://docs.google.com/spreadsheets/d/spreadsheetid %}";
+    "{% sheets https://docs.google.com/spreadsheets/d/spreadsheetid %}";
 const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## Maps Extension
+### Maps Extension
 
 Embed Google Maps in your markdown.
 
@@ -238,12 +260,12 @@ import { mapsExtension } from "showdown-extensions/maps";
 const converter = new showdown.Converter();
 converter.addExtension(mapsExtension, "maps");
 const markdownString =
-  "{% maps https://www.google.com/maps?q=latitude,longitude %}";
+    "{% maps https://www.google.com/maps?q=latitude,longitude %}";
 const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## Pinterest Extension
+### Pinterest Extension
 
 Embed Pinterest pins in your markdown.
 
@@ -257,7 +279,7 @@ const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## Twitch Extension
+### Twitch Extension
 
 Embed Twitch streams in your markdown.
 
@@ -271,7 +293,7 @@ const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## Tiktok Extension
+### Tiktok Extension
 
 Embed Tiktok videos in your markdown.
 
@@ -281,12 +303,12 @@ import { tiktokExtension } from "showdown-extensions/tiktok";
 const converter = new showdown.Converter();
 converter.addExtension(tiktokExtension, "tiktok");
 const markdownString =
-  "{% tiktok https://www.tiktok.com/@username/video/videoid %}";
+    "{% tiktok https://www.tiktok.com/@username/video/videoid %}";
 const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## LinkedIn Extension
+### LinkedIn Extension
 
 Embed LinkedIn posts in your markdown.
 
@@ -296,12 +318,12 @@ import { linkedinExtension } from "showdown-extensions/linkedin";
 const converter = new showdown.Converter();
 converter.addExtension(linkedinExtension, "linkedin");
 const markdownString =
-  "{% linkedin https://www.linkedin.com/posts/username/postid %}";
+    "{% linkedin https://www.linkedin.com/posts/username/postid %}";
 const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## Facebook Extension
+### Facebook Extension
 
 Embed Facebook posts in your markdown.
 
@@ -311,12 +333,12 @@ import { facebookExtension } from "showdown-extensions/facebook";
 const converter = new showdown.Converter();
 converter.addExtension(facebookExtension, "facebook");
 const markdownString =
-  "{% facebook https://www.facebook.com/username/posts/postid %}";
+    "{% facebook https://www.facebook.com/username/posts/postid %}";
 const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## Medium Extension
+### Medium Extension
 
 Embed Medium stories in your markdown.
 
@@ -330,7 +352,7 @@ const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
-## Notion Extension
+### Notion Extension
 
 Embed Notion pages in your markdown.
 
@@ -345,6 +367,320 @@ console.log(html);
 ```
 
 ---
+
+
+
+## Showdown Extensions
+
+
+### Table of Contents
+
+```js
+import showdown from "showdown";
+import { tocExtension } from "showdown-extensions/showdown-toc";
+
+const converter = new showdown.Converter();
+converter.addExtension(tocExtension, "toc");
+
+const markdownString = `
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+
+### Highlight
+
+```js
+import showdown from "showdown";
+import { highlightExtension } from "showdown-extensions/showdown-highlight";
+
+const converter = new showdown.Converter();
+converter.addExtension(highlightExtension, "highlight");
+
+const markdownString = `
+\`\`\`javascript
+console.log("Hello, World!");
+\`\`\`
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+### Emoji
+
+```js
+import showdown from "showdown";
+import { emojiExtension } from "showdown-extensions/showdown-emoji";
+
+const converter = new showdown.Converter();
+converter.addExtension(emojiExtension, "emoji");
+
+const markdownString = `
+:smile: :+1: :heart:
+`;
+
+const html = converter.makeHtml(markdownString);
+
+
+console.log(html);
+```
+
+### Footnotes
+
+```js
+import showdown from "showdown";
+import { footnotesExtension } from "showdown-extensions/showdown-footnotes";
+
+const converter = new showdown.Converter();
+converter.addExtension(footnotesExtension, "footnotes");
+
+const markdownString = `
+This is a footnote[^1].
+
+[^1]: This is the footnote content.
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+### Mark
+
+```js
+import showdown from "showdown";
+import { markExtension } from "showdown-extensions/showdown-mark";
+
+const converter = new showdown.Converter();
+converter.addExtension(markExtension, "mark");
+
+const markdownString = `
+==Highlighted text==
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+### Task List
+
+```js
+import showdown from "showdown";
+import { taskListExtension } from "showdown-extensions/showdown-task-list";
+
+const converter = new showdown.Converter();
+converter.addExtension(taskListExtension, "taskList");
+
+const markdownString = `
+- [x] Task 1
+- [ ] Task 2
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+### Mermaid
+
+```js
+import showdown from "showdown";
+import { mermaidExtension } from "showdown-extensions/showdown-mermaid";
+
+const converter = new showdown.Converter();
+converter.addExtension(mermaidExtension, "mermaid");
+
+const markdownString = `
+\`\`\`mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+\`\`\`
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+### Katex
+
+```js
+import showdown from "showdown";
+import { katexExtension } from "showdown-extensions/showdown-katex";
+
+const converter = new showdown.Converter();
+converter.addExtension(katexExtension, "katex");
+
+const markdownString = `
+$$
+\\frac{1}{2}
+$$
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+### PlantUML
+
+```js
+import showdown from "showdown";
+import { plantumlExtension } from "showdown-extensions/showdown-plantuml";
+
+const converter = new showdown.Converter();
+converter.addExtension(plantumlExtension, "plantuml");
+
+const markdownString = `
+\`\`\`plantuml
+@startuml
+Alice -> Bob: Hello
+Bob -> Alice: Hi!
+@enduml
+\`\`\`
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+### UML
+
+```js
+import showdown from "showdown";
+import { umlExtension } from "showdown-extensions/showdown-uml";
+
+const converter = new showdown.Converter();
+converter.addExtension(umlExtension, "uml");
+
+const markdownString = `
+\`\`\`uml
+@startuml
+Alice -> Bob: Hello
+Bob -> Alice: Hi!
+@enduml
+\`\`\`
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+### Video
+
+```js
+import showdown from "showdown";
+import { videoExtension } from "showdown-extensions/showdown-video";
+
+const converter = new showdown.Converter();
+converter.addExtension(videoExtension, "video");
+
+const markdownString = `
+{% video https://www.youtube.com/watch?v=0d6tf4te4lw %}
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+### Audio
+
+```js
+import showdown from "showdown";
+import { audioExtension } from "showdown-extensions/showdown-audio";
+
+const converter = new showdown.Converter();
+converter.addExtension(audioExtension, "audio");
+
+const markdownString = `
+{% audio https://www.soundcloud.com/username/track %}
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+### Iframe
+
+```js
+import showdown from "showdown";
+import { iframeExtension } from "showdown-extensions/showdown-iframe";
+
+const converter = new showdown.Converter();
+converter.addExtension(iframeExtension, "iframe");
+
+const markdownString = `
+{% iframe https://www.example.com %}
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+### Accordion
+
+```js
+import showdown from "showdown";
+import { accordionExtension } from "showdown-extensions/showdown-accordion";
+
+const converter = new showdown.Converter();
+converter.addExtension(accordionExtension, "accordion");
+
+const markdownString = `
+<details>
+<summary>Click to expand</summary>
+
+This is the content.
+
+</details>
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+### Tabs
+
+```js
+import showdown from "showdown";
+import { tabsExtension } from "showdown-extensions/showdown-tabs";
+
+const converter = new showdown.Converter();
+converter.addExtension(tabsExtension, "tabs");
+
+const markdownString = `
+<div class="tabs">
+  <input type="radio" id="tab1" name="tab-group" checked>
+  <label for="tab1">Tab 1</label>
+  <div class="tab">
+    This is the content for Tab 1.
+  </div>
+  <input type="radio" id="tab2" name="tab-group">
+  <label for="tab2">Tab 2</label>
+  <div class="tab">
+    This is the content for Tab 2.
+  </div>
+</div>
+`;
+
+const html = converter.makeHtml(markdownString);
+console.log(html);
+```
+
+
+
+
+
+---
+
 
 ## Examples
 
@@ -491,6 +827,7 @@ Run the tests:
 npm test
 ```
 
+
 ## Contributing
 
 We welcome contributions to add more extensions and improve existing ones. Please read our [Contributing Guide](CONTRIBUTING.md) for details on how to get started.
@@ -521,3 +858,4 @@ Happy Markdown Rendering!
 
 ![GitHub followers](https://img.shields.io/github/followers/SH20RAJ?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/SH20RAJ?style=social)
+

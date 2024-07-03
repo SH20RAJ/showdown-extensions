@@ -11,5 +11,5 @@ function youtubeExtension() {
     ];
   }
   
-  export default youtubeExtension;
+  export  {youtubeExtension};
   

@@ -1,3 +1,3 @@
-import {showdownHighlight} from 'showdown-highlight';
+import showdownHighlight from 'showdown-highlight';
 
 export { showdownHighlight }

@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/SH20RAJ/showdown-extensions#readme",
   "dependencies": {
-    "showdown-highlight": "^3.1.0"
+    "showdown-highlight": "^3.1.0",
+    "showdown-target-blank": "^1.0.2"
   }
 }

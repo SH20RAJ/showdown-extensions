@@ -1,5 +1,5 @@
 
-const codepenExtension = (md) => {
+export const codepenExtension = (md) => {
     md.renderer.rules.code_block = (tokens, idx, options, env, self) => {
         const token = tokens[idx];
         const code = token.content.trim();
@@ -11,4 +11,3 @@ const codepenExtension = (md) => {
     return md;
 }
 
-export { codepenExtension };

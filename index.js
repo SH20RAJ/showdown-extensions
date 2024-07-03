@@ -1,9 +1,6 @@
-import youtubeExtension from './youtube';
-import codepenExtension from './codepen';
-// ...import other extensions
+// Description: This file is the entry point for the showdown extension.
 
-export {
-  youtubeExtension,
-  codepenExtension,
-  // ...export other extensions
-};
+
+export const showdownExtensions = () => {
+  return "Hlw Markdown"
+  }

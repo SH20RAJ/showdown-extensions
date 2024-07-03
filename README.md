@@ -95,4 +95,3 @@ Happy Markdown Rendering!
 
 ![GitHub followers](https://img.shields.io/github/followers/SH20RAJ?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/SH20RAJ?style=social)
-```

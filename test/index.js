@@ -1,1 +1,5 @@
-import youtubeExtension from "../src/youtube";
+
+import  youtubeExtension  from 'showdown-extensions/dist/youtube/index.js';
+
+
+console.log(youtubeExtension);

@@ -344,6 +344,157 @@ const html = converter.makeHtml(markdownString);
 console.log(html);
 ```
 
+---
+
+## Examples
+
+### YouTube
+
+```markdown
+{% youtube https://youtu.be/0d
+6tf4te4lw %}
+```
+
+### CodePen
+
+```markdown
+{% codepen https://codepen.io/pen/wefewfw %}
+```
+
+### Twitter
+
+```markdown
+{% twitter https://twitter.com/username/status/1234567890123456789 %}
+```
+
+### Gist
+
+```markdown
+{% gist https://gist.github.com/username/1234567890123456789 %}
+```
+
+### Instagram
+
+```markdown
+{% instagram https://www.instagram.com/p/1234567890123456789 %}
+```
+
+### Vimeo
+
+```markdown
+{% vimeo https://vimeo.com/123456789 %}
+```
+
+### SoundCloud
+
+```markdown
+{% soundcloud https://soundcloud.com/username/track %}
+```
+
+### Spotify
+
+```markdown
+{% spotify https://open.spotify.com/track/trackid %}
+```
+
+### Figma
+
+```markdown
+{% figma https://www.figma.com/file/fileid %}
+```
+
+### Slides
+
+```markdown
+{% slides https://docs.google.com/presentation/d/presentationid %}
+```
+
+### Docs
+
+```markdown
+{% docs https://docs.google.com/document/d/documentid %}
+```
+
+### Sheets
+
+```markdown
+{% sheets https://docs.google.com/spreadsheets/d/spreadsheetid %}
+```
+
+### Maps
+
+```markdown
+{% maps https://www.google.com/maps?q=latitude,longitude %}
+```
+
+### Pinterest
+
+```markdown
+{% pinterest https://www.pinterest.com/pin/pinid %}
+```
+
+### Twitch
+
+```markdown
+{% twitch https://www.twitch.tv/username %}
+```
+
+### Tiktok
+
+```markdown
+{% tiktok https://www.tiktok.com/@username/video/videoid %}
+```
+
+### LinkedIn
+
+```markdown
+{% linkedin https://www.linkedin.com/posts/username/postid %}
+```
+
+### Facebook
+
+```markdown
+{% facebook https://www.facebook.com/username/posts/postid %}
+```
+
+### Medium
+
+```markdown
+{% medium https://medium.com/@username/storyid %}
+```
+
+### Notion
+
+```markdown
+{% notion https://www.notion.so/username/pageid %}
+```
+
+---
+
+## Demo
+
+Check out the [Demo](https://sh20raj.github.io/showdown-extensions/) to see the extensions in action.
+
+## Development
+
+To contribute to the project, clone the repository and install the dependencies:
+
+```bash
+git clone
+cd showdown-extensions
+npm install
+```
+
+Run the tests:
+
+```bash
+npm test
+```
+
+## Contributing
+
+We welcome contributions to add more extensions and improve existing ones. Please read our [Contributing Guide](CONTRIBUTING.md) for details on how to get started.
+
 Feel free to add more extensions and improve the existing ones. Check out our [Contributing Guide](CONTRIBUTING.md) for details on how to contribute.
 
 Happy Markdown Rendering!
@@ -351,10 +502,6 @@ Happy Markdown Rendering!
 ![GitHub followers](https://img.shields.io/github/followers/SH20RAJ?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/SH20RAJ?style=social)
 
-
-## Contributing
-
-We welcome contributions to add more extensions and improve existing ones. Please read our [Contributing Guide](CONTRIBUTING.md) for details on how to get started.
 
 ## License
 
